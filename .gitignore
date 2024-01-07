@@ -9,6 +9,9 @@
 # SSH keys
 *.pem
 
+# Ansible Hosts file
+hosts.yml
+
 # Other files
 .terraform.lock.hcl
 

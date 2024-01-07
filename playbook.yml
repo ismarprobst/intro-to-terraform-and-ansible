@@ -1,0 +1,9 @@
+- hosts: terraform-ansible
+  tasks:
+    - name: Instalando virtualenv
+      yum:
+        name: virtualenv
+        state: latest
+        update_cache: yes
+      become: yes
+
